@@ -94,7 +94,11 @@ section {
 .project a:hover {
     text-decoration: underline;
 }
-
+ul {
+    list-style-type: none; /* Убирает точки у списка */
+    padding: 0; /* Убирает отступы */
+    margin: 0; /* Убирает отступы */
+}
 /* Footer */
 footer {
     background-color: #333;
